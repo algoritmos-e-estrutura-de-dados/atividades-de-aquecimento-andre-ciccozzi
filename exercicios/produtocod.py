@@ -1,0 +1,8 @@
+pdu=int(input("Digite o código do produto:"))
+nun=int(input("Digite  o número de unidades:"))
+pru=float(input("Preço por unidade:"))
+pdd=int(input("Digite o código do produto 2:"))
+nud=int(input("Digite  o número de unidades do produto 2:"))
+prud=float(input("Preço por unidade do produto 2:"))
+cal=(nun*pru)+(nud*prud)
+print(f"VALOR A PAGAR: R$ {cal:.2f}")
