@@ -1,0 +1,5 @@
+no=input("Digite seu nome:")
+sf=float(input("Digite seu sálario fixo:"))
+ve=float(input("Total recebido por vendas:"))
+c=sf+(15/100*ve)
+print(f"Total = {c:.2f}")
